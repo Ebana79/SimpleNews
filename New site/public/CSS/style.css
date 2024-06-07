@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18pt;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+    padding: 0;
+}
+
+:root {
+  /* font */
+  --font-main: 'Segoe UI Symbol';
+
+  /* color */
+  --color-main: #872bd5;
+  --color-scnd: #786ae3;
+  --color-thrd: #ffffff;
+  --color-foth: #a0a0a0;
+  --color-ffth: #0c0f0a;
+  --color-searchbartext: #d7d6d6;
+
+  /* base size */
+  --base-margin: 5px;
+  --main-margin: 10px;
+  --classic: 100%;
+}
+
+header {
+    width: 95%;
+    margin: 5px auto;
+  }
+  .rbrq {
+    background-image: linear-gradient(45deg, var(--color-main) , var(--color-scnd));
+    margin: var(--main-margin);
+    width: var(--classic);
+    height: 66px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 20px;
+  }
+
+.rbrq ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.rbrq ul li {
+  margin: 0 auto;
+}
+
+.rbrq ul li a {
+  color: var(--color-thrd);
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+}
+
+.rbrq ul li a:hover {
+  color: #ffffffb3;
+  transform: translateY(10px);
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -o-transform: translateY(10px);
+}
+
+.nameSite {
+    background-color: var(--color-thrd);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main aside {
+    text-align: center;
+}
+
+.welcome {
+    margin: 0 auto;
+}
+
+.welcome h1 {
+    font-size: 3rem;
+}
+
+.welcome h2 {
+  font-size: 2rem;
+}
